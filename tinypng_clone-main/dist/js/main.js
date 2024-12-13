@@ -32,7 +32,7 @@ const handleDrop = (e) => {
     const dt = e.dataTransfer;
     const files = dt.files;
     const fileArray = [...files];
-    if (fileArray.length > 20) return alert("Too many files!");
+    if (fileArray.length > 20) return alert("Too many files, BossMan!");
     handleFiles(fileArray);
 }
 
